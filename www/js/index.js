@@ -32,7 +32,7 @@ function addAluno() {
     const nome = document.getElementById('nome').value;
     const turma = document.getElementById('turma').value;
   
-    fetch('https://xitiques-6yaw6gtrr-albertocossas-projects.vercel.app/addAluno', {
+    fetch('https://test-umber-sigma-16.vercel.app/addAluno', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
