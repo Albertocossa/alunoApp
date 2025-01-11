@@ -31,8 +31,9 @@ function onDeviceReady() {
 function addAluno() {
     const nome = document.getElementById('nome').value;
     const turma = document.getElementById('turma').value;
+    alert(`turma:${turma}`)
   
-    fetch('https://test-umber-sigma-16.vercel.app/addAluno', {
+    fetch('https://test-umber-sigma-16.vercel.app', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
